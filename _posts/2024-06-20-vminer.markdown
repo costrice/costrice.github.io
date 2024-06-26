@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "VMINer: Versatile Multi-view Inverse Rendering with Near- and Far-field Light Sources"
+date:   2024-06-20 10:30:00 -07:00
+image: /images/vminer.png
+categories: research
+author: "Fan Fei"
+authors: "<strong>Fan Fei<strong>, Jiajun Tang, Ping Tan, Boxin Shi"
+venue: "CVPR (Highlight)"
+paper: /pdfs/vminer.pdf
+poster: /pdfs/vminer_poster.pdf
+#code: 
+website: https://costrice.github.io/vminer/
+youtube: https://www.youtube.com/watch?v=ry4frf6mIeA
+---
+
+We use near-field lights, such as flashlights, as sources of lighting variation 
+to enhance both the practicality and the quality of multi-view inverse rendering.
