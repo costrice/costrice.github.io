@@ -2,7 +2,7 @@
 layout: post
 title:  "SPLiT: Single Portrait Lighting Estimation Via a Tetrad of Face Intrinsics"
 date:   2023-10-25 12:00:00 +08:00
-image: /images/vminer.png
+image: /images/split.png
 categories: research
 author: "Fan Fei"
 authors: "<strong>Fan Fei</strong>, Yean Cheng, Yongjie Zhu, Qian Zheng, Si Li, Gang Pan, Boxin Shi"
