@@ -5,7 +5,7 @@ date:   2024-06-20 10:30:00 -07:00
 image: /images/vminer.png
 categories: research
 author: "Fan Fei"
-authors: "<strong>Fan Fei</strong>, Jiajun Tang, Ping Tan, Boxin Shi"
+authors: "<strong>Fan Fei</strong>, Jiajun Tang, Ping Tan, Boxin Shi#"
 venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (Highlight)"
 paper: /pdfs/vminer.pdf
 poster: /pdfs/vminer_poster.pdf
