@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "SPLiT: Single Portrait Lighting Estimation Via a Tetrad of Face Intrinsics"
+date:   2023-10-25 12:00:00 +08:00
+image: /images/vminer.png
+categories: research
+author: "Fan Fei"
+authors: "<strong>Fan Fei</strong>, Yean Cheng, Yongjie Zhu, Qian Zheng, Si Li, Gang Pan, Boxin Shi"
+venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+paper: /pdfs/split.pdf
+code: https://github.com/costrice/split
+website: https://costrice.github.io/split/
+---
+
+From a single portrait image, we estimate a tetrad of face intrinsics and uses 
+spherically distributed components to estimate lighting.
