@@ -6,7 +6,7 @@ image: /images/split.jpg
 categories: research
 author: "Fan Fei"
 authors: "<strong>Fan Fei*</strong>, Yean Cheng*, Yongjie Zhu, Qian Zheng, Si Li, Gang Pan, Boxin Shi#"
-venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>)"
 paper: /pdfs/split.pdf
 code: https://github.com/costrice/split
 website: https://costrice.github.io/split/
