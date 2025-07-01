@@ -6,7 +6,7 @@ image: /images/vminer.png
 categories: research
 author: "Fan Fei"
 authors: "<strong>Fan Fei</strong>, Jiajun Tang, Ping Tan, Boxin Shi#"
-venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (Highlight)"
+venue: "The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>) (<strong>Highlight</strong>)"
 paper: /pdfs/vminer.pdf
 poster: /pdfs/vminer_poster.pdf
 code: https://github.com/costrice/vminer
