@@ -5,7 +5,7 @@ date:   2025-07-01 12:00:00 +08:00
 image: /images/ls-gaussian.png
 categories: research
 author: "Fan Fei"
-authors: "Linye Wei, Jiajun Tang, <strong>Fan Fei</strong>, Boxin Shi, Runsheng Wang, Meng Li "
+authors: "Linye Wei, Jiajun Tang, <strong>Fan Fei</strong>, Boxin Shi, Runsheng Wang, Meng Li"
 venue: "The International Conference on Computer-Aided Design (<strong>ICCAD</strong>)"
 ---
 

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "PacTure: Efficient PBR Texture Generation on Packed Views with Visual Autoregressive Models"
+date:   2025-05-28 12:00:00 +08:00
+image: /images/pacture.png
+categories: research
+author: "Fan Fei"
+authors: "<strong>Fan Fei</strong>, Jiajun Tang, Fei-Peng Tian, Boxin Shi#, Ping Tan"
+venue: "arXiv"
+paper: https://arxiv.org/pdf/2505.22394
+---
+
+We propose PacTure, a method to efficiently generate physically-based rendering (PBR) textures on a packed multi-view grid 
+using a visual autoregressive model as multi-view generation backbone.
