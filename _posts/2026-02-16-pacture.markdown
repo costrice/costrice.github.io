@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "PacTure: Efficient PBR Texture Generation on Packed Views with Visual Autoregressive Models"
-date:   2025-05-28 12:00:00 +08:00
+date:   2026-02-16 12:00:00 +08:00
 image: /images/pacture.png
 categories: research
 author: "Fan Fei"
 authors: "<strong>Fan Fei</strong>, Jiajun Tang, Fei-Peng Tian, Boxin Shi#, Ping Tan"
-venue: "arXiv"
+venue: "Accepted by Computational Visual Media Journal (<strong>CVMJ</strong>)"
 paper: https://arxiv.org/pdf/2505.22394
 ---
 

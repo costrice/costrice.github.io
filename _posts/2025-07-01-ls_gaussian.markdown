@@ -7,6 +7,7 @@ categories: research
 author: "Fan Fei"
 authors: "Linye Wei, Jiajun Tang, <strong>Fan Fei</strong>, Boxin Shi, Runsheng Wang, Meng Li"
 venue: "The International Conference on Computer-Aided Design (<strong>ICCAD</strong>)"
+paper: https://arxiv.org/pdf/2507.21572
 ---
 
 We propose LS-Gaussian, an algorithm/hardware co-design framework for lightweight streaming 3D rendering which 
