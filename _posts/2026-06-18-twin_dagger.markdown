@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Twin-DAgger: Synergizing Digital Twins and Human Corrections for Efficient Robot Manipulation"
-date:   2026-09-10 12:00:00 +08:00
+date:   2026-06-18 12:00:00 +08:00
 image: /images/twin_dagger.png
 categories: research
 author: "Fan Fei"
