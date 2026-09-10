@@ -29,9 +29,28 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
           rel="stylesheet" type="text/css">
 
+    <script>
+        // Apply the saved language before first paint to avoid a flash of the wrong language
+        (function () {
+            try {
+                var lang = localStorage.getItem('site-lang');
+                if (lang !== 'zh' && lang !== 'en') {
+                    lang = (navigator.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en';
+                }
+                if (lang === 'zh') {
+                    document.documentElement.className += ' lang-zh';
+                    document.documentElement.setAttribute('lang', 'zh-CN');
+                }
+            } catch (e) {
+            }
+        })();
+    </script>
 </head>
 
 <body>
+<div class="lang-switch">
+    <a href="#" id="lang-toggle" title="Switch language / 切换语言">中文</a>
+</div>
 <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
         <td style="padding:0px">
@@ -39,40 +58,61 @@
                 <tr style="padding:0px">
                     <td style="padding:2.5%;width:60%;vertical-align:middle">
                         <h1>
-                            Fan Fei (费凡)
+                            <span class="en">Fan Fei (费凡)</span><span class="zh">费凡 (Fan Fei)</span>
                         </h1>
-                        <p>
+                        <p class="en">
                             I am a fifth-year Ph.D. candidate at the
                             <a href="https://camera.pku.edu.cn/">Camera Intelligence Research Lab</a>
                             at <a href="https://english.pku.edu.cn/">Peking University</a>,
-                            where I work on 3D computer vision.
-                            My PhD advisor is <a href="https://camera.pku.edu.cn/team">Prof. Boxin Shi</a>.
+                            where I work on 3D computer vision and embodied intelligence.
+                            I am advised by <a href="https://camera.pku.edu.cn/team">Prof. Boxin Shi</a>.
                         </p>
-                        <p>
-                            Previously, I graduate from
+                        <p class="zh">
+                            我是<a href="https://english.pku.edu.cn/">北京大学</a><a href="https://camera.pku.edu.cn/">相机智能实验室</a>的五年级博士生，
+                            主要研究三维计算机视觉与具身智能，师从<a href="https://camera.pku.edu.cn/team">施柏鑫教授</a>。
+                        </p>
+                        <p class="en">
+                            I received my B.S. (summa cum laude) in Intelligence Science and Technology from the
                             <a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm">Turing Class</a>
-                            at Peking University as a BS (Summa Cum Laude) in Intelligence Science and Technology in 2022.
+                            at the School of EECS, Peking University in 2022.
                         </p>
-                        <P>
-                            I have interned at <a href="https://www.lightillusions.com/">Light Illusions</a> under the
+                        <p class="zh">
+                            我于 2022 年在北京大学信息科学技术学院（School of EECS）<a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm">图灵班</a>
+                            获得智能科学与技术专业荣誉学士学位。
+                        </p>
+                        <p class="en">
+                            I interned at <a href="https://www.lightillusions.com/">Light Illusions</a> under the
                             supervision of <a href="https://scholar.google.com/citations?user=XhyKVFMAAAAJ&hl=en">Prof. Ping Tan</a>
                             from October 2023 to September 2024,
-                            and at PKU-<a href="https://ai2robotics.com/en/">AI^2 Robotics</a> Joint Lab of Embodied AI
-                            in close collaboration with <a href="https://liujiaming1996.github.io/">Jiaming Liu</a> and
-                            other interns from June 2025 to May 2026.
-                        <P>
+                            and at the PKU-<a href="https://ai2robotics.com/en/">AI² Robotics</a> Joint Lab of Embodied AI from June 2025 to May 2026,
+                            where I worked closely with <a href="https://liujiaming1996.github.io/">Jiaming Liu</a> and other researchers.
                         </p>
-                            Starting from June 2026, I am interning at 
+                        <p class="zh">
+                            2023 年 10 月至 2024 年 9 月，我在 <a href="https://www.lightillusions.com/">Light Illusions</a> 实习，
+                            导师为<a href="https://scholar.google.com/citations?user=XhyKVFMAAAAJ&hl=en">谭平教授</a>；
+                            2025 年 6 月至 2026 年 5 月，我在北京大学-<a href="https://ai2robotics.com/en/">智平方</a>具身智能联合实验室实习，
+                            期间与<a href="https://liujiaming1996.github.io/">刘家铭</a>及其他研究者密切合作。
+                        </p>
+                        <p class="en">
+                            Since June 2026, I have been working at
                             <a href="https://3d-models.hunyuan.tencent.com/">Tencent Hunyuan 3D</a>
-                            as a research scientist working on PBR texture generation. 
+                            as a research intern on PBR texture generation.
                         </p>
-                        <p>
+                        <p class="zh">
+                            自 2026 年 6 月起，我在<a href="https://3d-models.hunyuan.tencent.com/">腾讯混元 3D</a>担任研究实习生，
+                            从事 PBR 纹理生成方向的研究。
+                        </p>
+                        <p class="en">
                             (Last updated: Sept. 2026)
+                        </p>
+                        <p class="zh">
+                            （最后更新：2026 年 9 月）
                         </p>
 
                         <p style="text-align:center">
                             <a target="_blank"
-                               href="mailto:fanfei@pku.edu.cn"> Email</a>
+                               href="mailto:fanfei@pku.edu.cn"><span class="en">Email</span><span
+                                    class="zh">邮箱</span></a>
                             &nbsp;/&nbsp;
                             <a href="https://github.com/costrice/">GitHub</a>
                             &nbsp;/&nbsp;
@@ -93,10 +133,15 @@
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tr>
                     <td style="padding:2.5%;width:100%;vertical-align:middle">
-                        <h2>Research</h2>
-                        <p>
-                            I previously worked on 3D computer vision and computer graphics, especially inverse rendering, 3D reconstruction, and 3D generation.
-                            Now I am working on embodied intelligence, including active perception and end-to-end policy learning.
+                        <h2><span class="en">Research</span><span class="zh">研究方向</span></h2>
+                        <p class="en">
+                            My research interests: 3D computer vision, computer graphics, and embodied intelligence,
+                            including inverse rendering, 3D reconstruction, texture generation, active perception,
+                            and end-to-end policy learning.
+                        </p>
+                        <p class="zh">
+                            我的研究方向为：三维计算机视觉、计算机图形学与具身智能，
+                            包括逆向渲染、三维重建、纹理生成、主动感知与端到端策略学习。
                         </p>
                     </td>
                 </tr>
@@ -120,31 +165,31 @@
                         <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
                         <br>
                         {% if post.paper %}
-                        <a href="{{post.paper}}">paper</a> /
+                        <a href="{{post.paper}}"><span class="en">paper</span><span class="zh">论文</span></a> /
                         {% endif %}
                         {% if post.arxiv %}
                         <a href="{{post.arxiv}}">arxiv</a> /
                         {% endif %}
                         {% if post.video %}
-                        <a href="{{post.video}}">video</a> /
+                        <a href="{{post.video}}"><span class="en">video</span><span class="zh">视频</span></a> /
                         {% endif %}
                         {% if post.code %}
-                        <a href="{{post.code}}">code</a> /
+                        <a href="{{post.code}}"><span class="en">code</span><span class="zh">代码</span></a> /
                         {% endif %}
                         {% if post.poster %}
-                        <a href="{{post.poster}}">poster</a> /
+                        <a href="{{post.poster}}"><span class="en">poster</span><span class="zh">海报</span></a> /
                         {% endif %}
                         {% if post.slides %}
-                        <a href="{{post.slides}}">slides</a> /
+                        <a href="{{post.slides}}"><span class="en">slides</span><span class="zh">幻灯片</span></a> /
                         {% endif %}
                         {% if post.website %}
-                        <a href="{{post.website}}">website</a> /
+                        <a href="{{post.website}}"><span class="en">website</span><span class="zh">项目主页</span></a> /
                         {% endif %}
                         {% if post.youtube %}
-                        <a href="{{post.youtube}}">youtube</a> /
+                        <a href="{{post.youtube}}"><span class="en">youtube</span><span class="zh">YouTube</span></a> /
                         {% endif %}
                         <p></p>
-                        {{ post.excerpt }}
+                        {{ post.content }}
                     </td>
                 </tr>
                 {% endif %}
@@ -156,11 +201,16 @@
                 <tr>
                     <td style="padding:0px">
                         <br>
-                        <p style="text-align:center;font-size:small;">
+                        <p class="en" style="text-align:center;font-size:small;">
                             Design and source code from <a
                                 style="font-size:small;"
                                 href="https://jonbarron.info">Jon Barron's
                             website</a>
+                        </p>
+                        <p class="zh" style="text-align:center;font-size:small;">
+                            页面设计与源码来自 <a
+                                style="font-size:small;"
+                                href="https://jonbarron.info">Jon Barron 的主页</a>
                         </p>
                     </td>
                 </tr>
@@ -168,6 +218,30 @@
         </td>
     </tr>
 </table>
+<script>
+    (function () {
+        var root = document.documentElement;
+        var button = document.getElementById('lang-toggle');
+
+        function apply() {
+            var zh = root.classList.contains('lang-zh');
+            root.setAttribute('lang', zh ? 'zh-CN' : 'en');
+            button.textContent = zh ? 'English' : '中文';
+        }
+
+        button.addEventListener('click', function (event) {
+            event.preventDefault();
+            root.classList.toggle('lang-zh');
+            apply();
+            try {
+                localStorage.setItem('site-lang', root.classList.contains('lang-zh') ? 'zh' : 'en');
+            } catch (e) {
+            }
+        });
+
+        apply();
+    })();
+</script>
 </body>
 
 </html>

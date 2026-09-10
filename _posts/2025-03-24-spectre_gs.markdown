@@ -11,5 +11,11 @@ paper: https://downloads.ctfassets.net/yreyglvi5sud/5iBJpo8bxxRWuFXlz8bZo5/cce95
 website: https://spectre-gs.github.io/
 ---
 
+<p class="en">
 We propose a 3D reconstruction method which models highly specular surfaces that reflect nearby objects through 
 ray tracing in 3D Gaussian Splatting.
+</p>
+
+<p class="zh">
+提出一种三维重建方法，通过在三维高斯泼溅中追踪光线，对反射邻近物体的高反光表面进行建模。
+</p>

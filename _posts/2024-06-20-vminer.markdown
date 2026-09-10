@@ -14,5 +14,11 @@ website: https://costrice.github.io/vminer/
 youtube: https://www.youtube.com/watch?v=ry4frf6mIeA
 ---
 
+<p class="en">
 We use near-field lights, such as flashlights, as sources of lighting variation 
 to enhance both the practicality and the quality of multi-view inverse rendering.
+</p>
+
+<p class="zh">
+利用手电筒等近场光源提供光照变化，从而提升多视角逆向渲染的实用性与质量。
+</p>

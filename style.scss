@@ -99,6 +99,36 @@ span.highlight {
   background-color: #ffffd0;
 }
 
+/******************/
+/* LANGUAGE SWITCH */
+/******************/
+
+.lang-switch {
+  max-width: 800px;
+  margin: 10px auto 0 auto;
+  padding-right: 2.5%;
+  text-align: right;
+  font-size: 14px;
+}
+
+#lang-toggle {
+  cursor: pointer;
+}
+
+// English is the default and stays visible without JavaScript;
+// Chinese blocks are only revealed when the html element carries .lang-zh
+.zh {
+  display: none;
+}
+
+.lang-zh .en {
+  display: none;
+}
+
+.lang-zh .zh {
+  display: revert;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";

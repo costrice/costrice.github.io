@@ -12,5 +12,11 @@ code: https://github.com/costrice/split
 website: https://costrice.github.io/split/
 ---
 
+<p class="en">
 From a single portrait image, we estimate a tetrad of face intrinsics and uses 
 spherically distributed components to estimate lighting.
+</p>
+
+<p class="zh">
+从单张人像图像出发，估计一组人脸本征属性，并利用分布到球面上的光照相关本征分量估计场景光照。
+</p>

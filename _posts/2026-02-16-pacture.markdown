@@ -10,5 +10,11 @@ venue: "Accepted by Computational Visual Media Journal (<strong>CVMJ</strong>)"
 paper: https://arxiv.org/pdf/2505.22394
 ---
 
-We propose PacTure, a method to efficiently generate physically-based rendering (PBR) textures on a packed multi-view grid 
+<p class="en">
+We propose a method to efficiently generate physically-based rendering (PBR) textures on a packed multi-view grid 
 using a visual autoregressive model as multi-view generation backbone.
+</p>
+
+<p class="zh">
+提出以视觉自回归模型作为多视角生成骨干，在打包的多视角网格上高效生成基于物理渲染（PBR）的材质贴图。
+</p>
