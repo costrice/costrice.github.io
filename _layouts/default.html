@@ -35,7 +35,7 @@
             try {
                 var lang = localStorage.getItem('site-lang');
                 if (lang !== 'zh' && lang !== 'en') {
-                    lang = (navigator.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en';
+                    lang = 'en'; // English unless the visitor switched before
                 }
                 if (lang === 'zh') {
                     document.documentElement.className += ' lang-zh';
@@ -88,7 +88,7 @@
                             where I worked closely with <a href="https://liujiaming1996.github.io/">Jiaming Liu</a> and other researchers.
                         </p>
                         <p class="zh">
-                            2023 年 10 月至 2024 年 9 月，我在 <a href="https://www.lightillusions.com/">Light Illusions</a> 实习，
+                            2023 年 10 月至 2024 年 9 月，我在 <a href="https://www.lightillusions.com/">光影焕像</a> 实习，
                             导师为<a href="https://scholar.google.com/citations?user=XhyKVFMAAAAJ&hl=en">谭平教授</a>；
                             2025 年 6 月至 2026 年 5 月，我在北京大学-<a href="https://ai2robotics.com/en/">智平方</a>具身智能联合实验室实习，
                             期间与<a href="https://liujiaming1996.github.io/">刘家铭</a>及其他研究者密切合作。
@@ -99,7 +99,7 @@
                             as a research intern on PBR texture generation.
                         </p>
                         <p class="zh">
-                            自 2026 年 6 月起，我在<a href="https://3d-models.hunyuan.tencent.com/">腾讯混元 3D</a>担任研究实习生，
+                            自 2026 年 6 月起，我在<a href="https://3d-models.hunyuan.tencent.com/">腾讯混元 3D</a> 担任研究实习生，
                             从事 PBR 纹理生成方向的研究。
                         </p>
                         <p class="en">
