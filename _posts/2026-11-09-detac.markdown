@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "DeTac: Dual-branch Decoupling of Texture and Force Signals in Vision-Based Tactile Sensors"
+date:   2026-11-09 12:00:00 -06:00
+image: /images/detac.png
+categories: research
+author: "Fan Fei"
+authors: "Zhirui Zhang, Yunkai Tang, Jiahang Li, <strong>Fan Fei</strong>, Jinnuo Zhang, Kairan Ding, Jieji Ren, Yandong Guo, Boxin Shi"
+venue: "The 10th Conference on Robot Learning (<strong>CoRL</strong>) (<strong>Spotlight</strong>)"
+paper: https://openreview.net/pdf?id=yMD1ykviND
+---
+
+<p class="en">
+We propose DeTac, a dual-branch generative framework that concurrently extracts clean shading and marker
+images from a single mixed tactile image, decoupling surface texture and contact force without mask-based
+inpainting or synthetic supervision.
+</p>
+
+<p class="zh">
+我们提出 DeTac，一个双分支生成框架，可从单张混合触觉图像中同时分离出干净的明暗图像与标记图像，
+无需掩码修复或合成数据监督即可解耦基于视觉的触觉传感器中的表面纹理与接触力信号。
+</p>
