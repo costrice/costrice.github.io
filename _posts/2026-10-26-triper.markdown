@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "TriPer: Active Perception for Robotic Manipulation via Trifunctional and Persistent Scene Modeling"
+date:   2026-10-26 12:00:00 +08:00
+image: /images/triper.png
+categories: research
+author: "Fan Fei"
+authors: "<strong>Fan Fei*</strong>, <strong>Yunkai Tang*</strong>, Jiahang Li, Zhirui Zhang, Jiaming Liu, Yandong Guo, Shanghang Zhang, Boxin Shi"
+venue: "IEEE Robotics and Automation Letters (<strong>RA-L</strong>)"
+---
+
+<p class="en">
+We propose TriPer, an active perception system that maintains a persistent scene state modeling exploration,
+high-fidelity geometry, and open-vocabulary semantics from streaming RGB-D observations, enabling efficient
+target-object grasping in cluttered and occluded scenes.
+</p>
+
+<p class="zh">
+我们提出 TriPer，一种主动感知系统：从流式 RGB-D 观测中维护一个持续的场景状态，同时建模探索状态、高精度几何与开放词汇语义，
+从而在杂乱、遮挡的桌面场景中高效完成目标物体抓取。
+</p>
