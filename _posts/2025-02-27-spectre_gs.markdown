@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SpecTRe-GS: Modeling Highly Specular Surfaces with Reflected Nearby Objects by Tracing Rays in 3D Gaussian Splatting"
-date:   2025-03-24 12:00:00 +08:00
+date:   2025-02-27 12:00:00 +08:00
 image: /images/spectre_gs.png
 categories: research
 author: "Fan Fei"

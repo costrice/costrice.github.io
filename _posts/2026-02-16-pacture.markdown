@@ -7,7 +7,7 @@ categories: research
 author: "Fan Fei"
 authors: "<strong>Fan Fei</strong>, Jiajun Tang, Fei-Peng Tian, Boxin Shi#, Ping Tan"
 venue: "Accepted by Computational Visual Media Journal (<strong>CVMJ</strong>)"
-paper: https://arxiv.org/pdf/2505.22394
+paper: https://arxiv.org/pdf/2505.22394v2
 ---
 
 <p class="en">

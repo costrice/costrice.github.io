@@ -1,13 +1,14 @@
 ---
 layout: post
 title:  "DeTac: Dual-branch Decoupling of Texture and Force Signals in Vision-Based Tactile Sensors"
-date:   2026-11-09 12:00:00 -06:00
+date:   2026-09-05 12:00:00 +08:00
 image: /images/detac.png
 categories: research
 author: "Fan Fei"
 authors: "Zhirui Zhang, Yunkai Tang, Jiahang Li, <strong>Fan Fei</strong>, Jinnuo Zhang, Kairan Ding, Jieji Ren, Yandong Guo, Boxin Shi"
 venue: "The 10th Conference on Robot Learning (<strong>CoRL</strong>) (<strong>Spotlight</strong>)"
 paper: https://openreview.net/pdf?id=yMD1ykviND
+video: https://openreview.net/attachment?id=yMD1ykviND&name=spotlight_video
 ---
 
 <p class="en">

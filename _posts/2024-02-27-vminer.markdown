@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "VMINer: Versatile Multi-view Inverse Rendering with Near- and Far-field Light Sources"
-date:   2024-06-20 10:30:00 -07:00
+date:   2024-02-27 12:00:00 +08:00
 image: /images/vminer.png
 categories: research
 author: "Fan Fei"
