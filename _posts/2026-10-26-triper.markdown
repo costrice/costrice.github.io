@@ -5,7 +5,7 @@ date:   2026-10-26 12:00:00 +08:00
 image: /images/triper.png
 categories: research
 author: "Fan Fei"
-authors: "<strong>Fan Fei*</strong>, <strong>Yunkai Tang*</strong>, Jiahang Li, Zhirui Zhang, Jiaming Liu, Yandong Guo, Shanghang Zhang, Boxin Shi"
+authors: "<strong>Fan Fei*</strong>, Yunkai Tang*, Jiahang Li, Zhirui Zhang, Jiaming Liu, Yandong Guo, Shanghang Zhang, Boxin Shi"
 venue: "IEEE Robotics and Automation Letters (<strong>RA-L</strong>)"
 ---
 
